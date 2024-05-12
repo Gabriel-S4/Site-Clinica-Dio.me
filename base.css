@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #CDE8E5;
+    padding: 90px 20px 0px;
+    font-family: "Lato", serif;
+    font-size: 20px;
+}
+.header {
+    background-color: rgb(98, 201, 201);
+    min-height: 150px;
+}
+
+
+
+.HeaderMainPhoto {
+    width:70%;
+    margin: 0 auto;
+    display: block;
+    border-color: black;
+    border: 13px solid rgb(41, 111, 116)
+}
+.HeaderSobrePhoto {
+    width:50%;
+    margin: 0 auto;
+    display: block;
+    border-color: black;
+    border: 13px solid rgb(41, 111, 116)
+}
+.HeaderContatoPhoto {
+    width:20%;
+    margin: 0 auto;
+    display: block;
+    border-color: black;
+    border: 13px solid rgb(41, 111, 116)
+}
+.HeaderHorarioPhoto {
+    width:70%;
+    margin: 0 auto;
+    display: block;
+    border-color: black;
+    border: 13px solid rgb(41, 111, 116)
+}
+.ContentMainPhoto {
+    border-radius: 10px;
+}
+.ContentSobrePhoto {
+    border-radius: 10px
+}
+.ContentContatoPhoto {
+    border-radius: 10px;
+    width: 650px;
+    display: block;
+    margin: 0 auto;
+}
+.ContentHorarioPhoto {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 8%;
+    font-family: "Trirong", serif;
+}
+.whatsappIconText {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+}
+.footer {
+    background-color: #7AB2B2;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactMap {
+    display: block;
+    margin: 0 auto;
+}
+.Form {
+    padding-left: 20px;
+    border: 20px solid;
+    border-color: #b0dada;
+    border-radius: 30px;
+}
+.TableHorario {
+    border-color: rgb(255, 255, 255);
+}
+table th{
+    background-color: rgb(22, 61, 77);
+    color: rgb(162, 196, 204);
+}
+table tr:nth-child(even) {
+    background-color: rgb(156, 223, 231);
+} 
+table tr:hover td {
+    background-color: darkgrey;
+}
